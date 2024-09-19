@@ -17,7 +17,7 @@ export default function Weather(){
 <input
 type="submit"
 value="Search"
-className="btn btn-primary"
+className="btn btn-primary w-100" 
  />
  </div>
                     </div>
@@ -27,9 +27,12 @@ className="btn btn-primary"
             <li> Thursday 19:42</li>
             <li>Clear with periodic clouds</li>
             </ul>
-            <div className="row">
-                <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" alt="weathericon" />
-                30°C
+            <div className="row mt-3">
+                <div className="clearfix">
+                <img src="https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png" alt="clear" className="float-left" />
+                <span className="temperature"> 30 </span>
+                <span className="unit"> °C </span>
+            </div>
             </div>
             <div className="col-6">
                 <ul>
