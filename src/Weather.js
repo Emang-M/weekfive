@@ -18,8 +18,9 @@ export default function Weather(){
 type="submit"
 value="Search"
 className="btn btn-primary"
+ />
+ </div>
                     </div>
-                </div>
             </form>
             <h1>Maun</h1>
             <ul>
