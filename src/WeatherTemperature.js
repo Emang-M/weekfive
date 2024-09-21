@@ -21,9 +21,10 @@ if (unit=== "celcius"){
   return (
     <div className="WeatherTemperature">
       <span className="temperature">{Math.round(props.celsius)}</span>
-      <span className="unit">°C| ("")
-        <a href="/" onClick={showFahrenheit} rel="norefferer">°F 
-        </a>
+      <span className="unit">°C |("")
+        <a href="/" onClick={showFahrenheit} rel="norefferer"
+        >°F 
+        </a> 
         </span>
     </div>
   );
@@ -31,8 +32,9 @@ if (unit=== "celcius"){
     return(
     <div className="WeatherTemperature">
       <span className="temperature">{Math.round(fahrenheit)}</span>
-      <span className="unit">°C| ("")
-        <a href="/" onClick={showCelcius} rel="norefferer">°F
+      <span className="unit">°C 
+        <a href="/" onClick={showCelcius} rel="norefferer">
+        |°F
         </a>
         </span>
     </div>
