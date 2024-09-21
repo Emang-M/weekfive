@@ -12,6 +12,7 @@ export default function Weather(props){
         console.log(response.data);
         setLoaded(true);
       setWeatherData({
+        ready: true,
         coordinates: response.data.coord,
         temperature: response.data.main.temp,
         humidity: response.data.main.humidity,
