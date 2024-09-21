@@ -37,7 +37,8 @@ export default function Weather(props){
   
 
 
-   if(loaded) return (
+   if(loaded) {
+    return (
         <div className="Weather">
             <form onSubmit={handleSubmit}> 
                 <div className="row">
@@ -62,4 +63,12 @@ className="btn btn-primary w-100"
             < WeatherInfo data={weatherData} />
             </div>
             );
+} else 
+{
+return (
+<div>
+loading...
+</div>
+);
+}
 }
