@@ -5,7 +5,6 @@ import "./Weather.css"
 
 export default function Weather(props){
     let [weatherData, setWeatherData] = useState({ ready: false });
-    let [loaded, setLoaded] = useState(false);
     let [city, setCity] = useState(props.city);
 
     function handleResponse(response) {
@@ -38,7 +37,7 @@ export default function Weather(props){
   
 
 
-   if(loaded) {
+   if(weatherData.ready) {
     return (
         <div className="Weather">
             <form onSubmit={handleSubmit}> 
