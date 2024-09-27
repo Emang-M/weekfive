@@ -36,7 +36,7 @@
   }
   
   .Weather canvas {
-    margin: 10px auto;
+    margin-left: 0px;
   }
   
   .Weather .unit {
