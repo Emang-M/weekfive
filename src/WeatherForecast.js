@@ -36,7 +36,8 @@ export default function WeatherForecast (props){
     
         axios.get(apiUrl).then(handleResponse);
     
-        return <div>Loading...</div>;  // Provide feedback during loading state
+
+        return null;
+
     }
-      return null;
     }
