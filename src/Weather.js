@@ -63,7 +63,7 @@ className="btn btn-primary w-100"
                     </div>
             </form>
             < WeatherInfo data={weatherData} />
-            <WeatherForecast coordinates={weatherData.coord} />
+            <WeatherForecast coordinates={weatherData.coordinates} />
             </div>
             );
 } else {
