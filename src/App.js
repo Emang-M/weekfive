@@ -19,7 +19,7 @@ export default function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/weekfive"
+            href="https://github.com/Emang-M/weekfive"
             target="_blank"
             rel="noopener noreferrer"
           >
