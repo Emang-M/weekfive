@@ -16,7 +16,7 @@ setLoaded(false);
         setLoaded(true);
       }
 
-      function load(props){
+      function load(){
         let apiKey ="62bc298785543e137bc6756e514eb1c3";
         let longitude = props.coordinates.lon;
         let latitude = props.coordinates.lat;
